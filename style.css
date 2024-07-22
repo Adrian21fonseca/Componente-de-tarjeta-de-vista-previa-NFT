@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(216, 55%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: hsl(214, 50%, 16%);
+    padding: 20px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.imagen-principal{
+    width: 260px;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.title:hover{
+    cursor: pointer;
+    color: hsl(178, 93%, 52%);;
+    transition: .7s;
+}
+
+.text{
+    padding: 0 6px 0 0;
+    color: hsl(216, 27%, 44%);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.prcio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 500;
+}
+
+.money{
+    margin: 0 75px 0 7px;
+    color: hsl(178, 93%, 52%);
+}
+
+.fecha{
+    margin: 0 0 0 7px ;
+    color: hsl(218, 34%, 63%);
+}
+
+hr{
+    border: solid 1px hsl(213, 32%, 26%);
+    margin: 20px 1px;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.avatar{
+    width: 33px;
+    margin-right: 16px;
+    border: solid 1.5px white;
+    border-radius: 50px;
+}
+
+.creador{
+    color: hsl(213, 29%, 56%);
+}
+
+span{
+    color: white;
+}
+
+span:hover{
+    cursor: pointer;
+    color: hsl(178, 93%, 52%);;
+    transition: .7s;
+}
